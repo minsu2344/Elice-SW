@@ -6,6 +6,7 @@ const HIDDEN_CLASS = 'hidden'
 
 function handleBoxClick(e) {
   let id = e.target.id;
+  button.value = '▼ 펼치기';
   if(!id) {
     id = e.target.parentElement.id;
   }
